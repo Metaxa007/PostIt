@@ -1,0 +1,296 @@
+
+ /*
+==========Generell==========
+ */
+ body {
+	 background-color: #f1f2f7;
+	 font-family: Avenir, Helvetica;
+ }
+ 
+ .wrapper-mother {
+	 width: 95%;
+	 max-width: 900px;
+	 margin: 0 auto;
+	 background-color: white;
+	 margin-bottom: 60px;
+	 border-bottom-left-radius: 5px;
+	 border-bottom-right-radius: 5px;
+	 box-shadow: 1px 1px 10px 1px black;
+ }
+ 
+header {
+	width: 96%;
+	padding: 2%;
+	background-color: #4363a9;
+}
+
+footer {
+	width: 97%;
+	padding: 1.5%;
+	background-color: #1f1f1f;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.wrapper-main {
+	width: 96%;
+	padding: 2%;
+}
+
+.logo-a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25pt;
+	color: white;
+	margin: 20px 15px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Avenir, Helvetica;
+	font-weight: 400;
+}
+
+nav {
+	width: 100%;
+	padding: 0 !important;
+	margin: 0;
+	background-color: gray;
+	text-align: center;
+}
+
+nav a {
+	width: 24%;
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 13pt;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: #252525;
+}
+
+.abmelden {
+	float: right;
+	font-size: 14pt;
+	color: rgba(0, 0, 0, 0.43);
+	text-decoration: none;
+}
+
+.abmelden:hover {
+	text-decoration: underline;
+}
+
+
+.submit-button {
+	padding: 5px 20px;
+	font-size: 12pt;
+	background-color: #30487d;
+	border-radius: 2px;
+	border: 1px solid #333;
+}
+
+.input-text {
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid #333;
+}
+
+ /*
+==========Pages==========
+ */
+
+/*Register*/
+
+.register-form {
+	margin: 40px auto;
+	border: 2px dashed #222;
+	padding: 15px;
+	width: 340px;
+}
+
+.register-table td{
+	padding: 5px;
+}
+
+/*Index*/
+
+.login-table {
+	float: right;
+	display: inline-block;
+	color: #222;
+}
+
+.login-table td {
+	padding: 3px;
+}
+
+/*Main*/
+
+.profil-info-container {
+	width: 100%;
+	padding: 0;
+}
+
+.profil-info-links {
+	width: 29%;
+	display: block;
+	float: left;
+}
+
+.profil-info-links img {
+	width: 100%;
+	margin: 0;
+	margin-bottom: -4px;
+}
+
+.profil-info-rechts {
+	width: 70%;
+	display: block;
+	float: right;
+}
+
+.profil-info-table {
+	margin-bottom: 25px;
+}
+
+.profil-info-table td {
+	width: 200px;
+}
+
+.table_suche th {
+    position: absolute;
+    width: 298px;
+}
+
+.table_suche {
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+	padding: 0px;
+	margin: 0px;
+	float: none;
+	background: none;
+}
+
+.table_suche input {
+	font-family: avenir next, arial;
+	font-size: 11pt;
+	color: #222;
+	padding: 4px;
+	width: 280px;
+	border: 0px solid white;
+}
+
+.table_suche input:focus{
+  border: 0px solid white;
+  -webkit-box-shadow:0 0 0 white;
+  -moz-box-shadow:0 0 0 white;
+  box-shadow:0 0 0 white;
+  outline: none;
+}
+
+.table_suche tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.table_suche td {
+	padding: 5px;
+	margin: 0px;
+	border-bottom: 1px solid black;
+}
+
+.table_suche table {
+        width: 100%;
+	background-color: rgba(255,255,255,1);
+	text-align: left;
+	font-size: 12pt;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.5);
+}
+
+.table_suche a {
+    font-weight: 400;
+    color: black;
+}
+
+.table_suche a:hover {
+    text-decoration: none;
+}
+	
+	
+
+/*Kontakte*/
+
+.kontakte-table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+.kontakte-table td {
+    border: 1px solid #444;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.kontakte-table a {
+    color: #333;
+}
+
+/*Pinnwand*/
+
+.pinnwand-table {
+	width: 100%;
+}
+
+.pinnwand-table input {
+	width: 95%;
+}
+
+.pinnwand-table textarea {
+	width: 95%;
+	border: 1px solid #333;
+	padding: 3px;
+	font-size: 11pt;
+}
+
+/*Statistics*/
+
+.scientist_table {
+    border: 1px solid #333;
+}
+
+.scientist_table td {
+    padding: 5px;
+    vertical-align: top;
+    border-bottom: 1px solid #333;
+}
+
+
+
+/*Float Clearfix
+=================================*/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
